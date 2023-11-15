@@ -1,0 +1,13 @@
+{
+  "name": "krono-api",
+  "version": "3.0.0",
+  "main": "krono-api.js",
+  "types": "krono-api.d.ts",
+  "devDependencies": {},
+  "dependencies": {
+    "format-util": "^1.0.5"
+  },
+  "peerDependencies": {},
+  "optionalDependencies": {},
+  "bundledDependencies": []
+}

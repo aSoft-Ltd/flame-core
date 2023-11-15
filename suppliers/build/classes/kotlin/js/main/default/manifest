@@ -1,0 +1,10 @@
+abi_version=1.8.0
+builtins_platform=JS
+compiler_version=1.9.20
+depends=tz.co.asoft\:flame-api-core-entity tz.co.asoft\:identifier-legal-dtos tz.co.asoft\:geo-coordinates tz.co.asoft\:hormone-core tz.co.asoft\:krono-kotlinx tz.co.asoft\:krono-api tz.co.asoft\:kronecker-core tz.co.asoft\:cabinet-api-core tz.co.asoft\:geo-addresses tz.co.asoft\:geo-countries tz.co.asoft\:epsilon-api-file tz.co.asoft\:epsilon-api-core tz.co.asoft\:koncurrent-later-coroutines tz.co.asoft\:koncurrent-later-core tz.co.asoft\:kase-core tz.co.asoft\:identifier-comm tz.co.asoft\:kollections-atomic tz.co.asoft\:kollections-interoperable tz.co.asoft\:kash-currency tz.co.asoft\:identifier-core org.jetbrains.kotlinx\:kotlinx-datetime org.jetbrains.kotlinx\:kotlinx-serialization-core tz.co.asoft\:kase-possible tz.co.asoft\:koncurrent-executors-coroutines tz.co.asoft\:koncurrent-executors-core org.jetbrains.kotlinx\:kotlinx-coroutines-core org.jetbrains.kotlinx\:atomicfu org.jetbrains.kotlin\:kotlin-dom-api-compat kotlin org.jetbrains.kotlin\:kotlinx-atomicfu-runtime
+ir_signature_versions=1,2
+jsOutputName=flame-api-core-suppliers
+metadata_version=1.4.1
+serializedIrFileFingerprints=724mmplopatm.12uv209q2wqeo 1t7f2fo7ed3rq.r1ok0g6jxzpn
+serializedKlibFingerprint=o55b3bb72ki2.3rcfdwdkoaauk
+unique_name=tz.co.asoft\:flame-api-core-suppliers
