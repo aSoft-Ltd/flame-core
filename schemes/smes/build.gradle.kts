@@ -4,8 +4,6 @@ plugins {
     id("tz.co.asoft.library")
 }
 
-val tmp = 0
-
 kotlin {
     jvm { library() }
     js(IR) { library() }
@@ -13,13 +11,17 @@ kotlin {
     sourceSets {
         val commonMain by getting {
             dependencies {
-                api(projects.flameApiCoreEntity)
+                api(projects.flameDtosSmes)
+                api(libs.geo.coordinates)
+                api(libs.krono.api)
+                api(libs.kronecker.core)
+                api(libs.cabinet.api.core)
+                api(libs.identifier.legal.dtos)
             }
         }
 
         val commonTest by getting {
             dependencies {
-                api(libs.koncurrent.later.coroutines)
                 api(libs.kommander.coroutines)
             }
         }

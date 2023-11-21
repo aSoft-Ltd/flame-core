@@ -1,0 +1,4 @@
+package flame
+
+interface SmeAdminScheme {
+}
