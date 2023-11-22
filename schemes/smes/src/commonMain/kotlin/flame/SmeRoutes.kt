@@ -4,5 +4,5 @@ class SmeRoutes(private val base: String) {
 
     private val root = "$base/sme"
     fun load() = "$root/info"
-    fun saveContacts() = "$root/save/contacts"
+    fun save(key: String) = "$root/save/$key"
 }

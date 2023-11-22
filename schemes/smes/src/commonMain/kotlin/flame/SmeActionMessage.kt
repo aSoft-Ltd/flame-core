@@ -3,5 +3,5 @@ package flame
 class SmeActionMessage {
     fun load() = "Loading sme info"
 
-    fun saveContacts() = "Saving contact information"
+    fun save(key: String) = "Saving $key information"
 }
