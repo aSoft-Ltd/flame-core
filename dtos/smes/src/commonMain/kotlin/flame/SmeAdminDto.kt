@@ -3,6 +3,7 @@
 
 package flame
 
+import kollections.List
 import kotlin.js.JsExport
 import kotlinx.serialization.Serializable
 
@@ -10,5 +11,6 @@ import kotlinx.serialization.Serializable
 data class SmeAdminDto(
     val contacts: SmeContactsDto?,
     val business: SmeBusinessDto?,
-    val legal: SmeLegalComplianceDto?
+    val legal: SmeLegalComplianceDto?,
+    val shareholders: List<SmeShareholderDto>,
 )
