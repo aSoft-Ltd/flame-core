@@ -1,4 +1,3 @@
 package flame
 
-interface SmeAdminScheme {
-}
+interface SmeAdminScheme
