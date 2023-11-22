@@ -1,7 +1,7 @@
 @file:JsExport
 @file:Suppress("NON_EXPORTABLE_TYPE")
 
-package flame
+package flame.admin
 
 import geo.AddressDto
 import identifier.Industry

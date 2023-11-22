@@ -1,5 +1,5 @@
 @file:JsExport
-package flame
+package flame.admin
 
 import kotlin.js.JsExport
 import kotlinx.serialization.Serializable

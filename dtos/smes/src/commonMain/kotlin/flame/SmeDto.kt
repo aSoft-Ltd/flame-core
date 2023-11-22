@@ -3,11 +3,14 @@
 
 package flame
 
+import flame.admin.SmeAdminDto
+import flame.funding.SmeFundingDto
 import kotlin.js.JsExport
 import kotlinx.serialization.Serializable
 
 @Serializable
 data class SmeDto(
     val uid: String,
-    val admin: SmeAdminDto?
+    val admin: SmeAdminDto? = null,
+    val funding: SmeFundingDto? = null,
 )
