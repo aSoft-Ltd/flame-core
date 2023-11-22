@@ -11,7 +11,7 @@ sealed interface SmeKey {
     }
 
     enum class Funding : SmeKey {
-        investment;
+        investment, breakdown, acquisition;
 
         override val route by lazy { "funding/$name" }
     }
