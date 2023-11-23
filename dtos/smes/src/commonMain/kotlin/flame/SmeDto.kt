@@ -4,6 +4,7 @@
 package flame
 
 import flame.admin.SmeAdminDto
+import flame.finance.SmeFinanceDto
 import flame.funding.SmeFundingDto
 import kotlin.js.JsExport
 import kotlinx.serialization.Serializable
@@ -13,4 +14,5 @@ data class SmeDto(
     val uid: String,
     val admin: SmeAdminDto? = null,
     val funding: SmeFundingDto? = null,
+    val finance: SmeFinanceDto? = null
 )
