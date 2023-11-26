@@ -8,7 +8,7 @@ import kotlinx.serialization.Serializable
 
 @Serializable
 data class SmeFundingDto(
-    val investment: SmeInvestmentDto? = null,
-    val breakdown: SmeBreakdownDto? = null,
-    val acquisition: SmeAcquisitionDto? = null
+    val investment: SmeInvestmentDto = SmeInvestmentDto(),
+    val breakdown: SmeBreakdownDto = SmeBreakdownDto(),
+    val acquisition: SmeAcquisitionDto = SmeAcquisitionDto()
 )
