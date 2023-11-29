@@ -1,12 +1,9 @@
-@file:JsExport
-@file:Suppress("NON_EXPORTABLE_TYPE")
-
 package flame
 
+import cabinet.Attachment
 import flame.admin.SmeAdminDto
 import flame.finance.SmeFinanceDto
 import flame.funding.SmeFundingDto
-import kotlin.js.JsExport
 import kotlinx.serialization.Serializable
 
 @Serializable
@@ -15,5 +12,6 @@ data class SmeDto(
     val company: String = "",
     val admin: SmeAdminDto? = null,
     val funding: SmeFundingDto? = null,
-    val finance: SmeFinanceDto? = null
+    val finance: SmeFinanceDto? = null,
+    val documents: List<Attachment> = emptyList()
 )
