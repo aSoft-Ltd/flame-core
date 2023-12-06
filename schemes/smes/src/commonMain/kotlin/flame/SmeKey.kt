@@ -17,7 +17,7 @@ sealed interface SmeKey {
     }
 
     enum class Finance : SmeKey {
-        office;
+        office, status;
 
         override val route by lazy { "finance/$name" }
     }
