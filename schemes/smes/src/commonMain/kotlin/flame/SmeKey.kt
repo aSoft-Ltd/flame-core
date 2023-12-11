@@ -17,8 +17,19 @@ sealed interface SmeKey {
     }
 
     enum class Finance : SmeKey {
-        office, status;
+        office, status, acquisition;
 
         override val route by lazy { "finance/$name" }
+    }
+
+    data object Governance : SmeKey {
+        override val name by lazy { "governance" }
+        override val route by ::name
+    }
+
+    enum class Swot : SmeKey {
+        strengths, weaknesses, opportunities, threats;
+
+        override val route by lazy { "swot/$name" }
     }
 }
