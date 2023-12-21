@@ -5,7 +5,7 @@ package flame.admin
 
 import geo.AddressDto
 import identifier.Industry
-import kotlin.js.JsExport
+import kotlinx.JsExport
 import kotlinx.serialization.Serializable
 
 @Serializable

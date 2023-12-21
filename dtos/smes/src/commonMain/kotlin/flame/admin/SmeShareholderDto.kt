@@ -2,7 +2,7 @@
 
 package flame.admin
 
-import kotlin.js.JsExport
+import kotlinx.JsExport
 import kotlinx.serialization.Serializable
 
 @Serializable

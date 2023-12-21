@@ -1,7 +1,7 @@
 @file:JsExport
 package flame.governance
 
-import kotlin.js.JsExport
+import kotlinx.JsExport
 import kotlinx.serialization.Serializable
 
 @Serializable
