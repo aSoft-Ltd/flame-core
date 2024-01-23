@@ -11,6 +11,7 @@ import kotlinx.serialization.Serializable
 @Serializable
 data class SmeDto(
     val uid: String,
+    val origin: String = "picapital",
     val company: String = "",
     val admin: SmeAdminDto? = null,
     val funding: SmeFundingDto? = null,
