@@ -8,5 +8,7 @@ class SmeEndpoint(private val base: String) {
 
     fun smes() = "$base/smes"
 
+    fun load(uid: String) = "$root/$uid"
+
     fun documents() = "$root/documents"
 }
