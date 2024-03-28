@@ -6,4 +6,7 @@ class SmeActionMessage {
     fun save(key: SmeKey) = "Saving ${key.name} information"
 
     fun smes() = "Loading all smes"
+
+    fun create() = "Creating sme"
+    fun update() = "Updating sme"
 }
