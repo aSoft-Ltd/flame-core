@@ -3,6 +3,5 @@ package flame
 import koncurrent.Later
 
 interface SmeScheme {
-    val documents: SmeDocumentsScheme
-    fun load(): Later<SmeDto>
+    fun update(sme: SmeDto): Later<SmeDto>
 }

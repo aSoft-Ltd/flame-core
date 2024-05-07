@@ -2,6 +2,6 @@ package flame
 
 import koncurrent.Later
 
-interface OwnSmeScheme : XSmeScheme {
+interface OwnSmeScheme : SmeScheme {
     fun load(): Later<SmeDto>
 }
