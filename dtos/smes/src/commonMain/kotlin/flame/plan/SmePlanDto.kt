@@ -6,7 +6,7 @@ import kollections.map
 import kotlinx.serialization.Serializable
 
 @Serializable
-data class SmeBusinessPlanDto(
+data class SmePlanDto(
     val marketing: List<QnADto> = listOf(
         "How was the market research conducted? (Desktop, surveys, research firms, etc)",
         "Review industry information to assess the current and potential growth prospects of the market in which the client operates",
