@@ -1,5 +1,7 @@
+@file:JsExport
 package flame.plan
 
+import kotlinx.JsExport
 import kotlinx.serialization.Serializable
 
 @Serializable
