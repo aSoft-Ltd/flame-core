@@ -9,8 +9,11 @@ import kotlinx.serialization.Serializable
 
 @Serializable
 data class SmeGovernanceDto(
-    val directors: List<SmeDirectorDto> = emptyList(),
-    val management: List<SmeDirectorDto> = emptyList(),
-    val advisory: List<SmeDirectorDto> = emptyList(),
+    val directors: List<SmeGoverningPersonnelDto> = emptyList(),
+    val management: SmeManagementDto? = SmeManagementDto(
+        committee = emptyList(),
+        team = emptyList()
+    ),
+    val advisory: List<SmeGoverningPersonnelDto> = emptyList(),
     val manpower: SmeManPowerDto? = null
 )
