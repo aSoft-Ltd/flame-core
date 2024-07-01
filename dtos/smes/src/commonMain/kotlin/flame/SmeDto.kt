@@ -2,6 +2,7 @@ package flame
 
 import cabinet.AttachmentDto
 import flame.admin.SmeAdminDto
+import flame.analysis.FinancialReportsDto
 import flame.finance.SmeFinanceDto
 import flame.funding.SmeFundingDto
 import flame.governance.SmeGovernanceDto
@@ -20,5 +21,6 @@ data class SmeDto(
     val documents: List<AttachmentDto> = emptyList(),
     val governance: SmeGovernanceDto? = null,
     val business: SmePlanDto = SmePlanDto(),
-    val swot: SmeSwotDto? = null
+    val swot: SmeSwotDto? = null,
+    val reports: List<FinancialReportsDto> = emptyList()
 )
