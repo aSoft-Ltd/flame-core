@@ -7,6 +7,7 @@ import flame.finance.SmeFinanceDto
 import flame.funding.SmeFundingDto
 import flame.governance.SmeGovernanceDto
 import flame.plan.SmePlanDto
+import flame.sheet.SmeSheet
 import flame.swot.SmeSwotDto
 import kotlinx.serialization.Serializable
 
@@ -19,6 +20,8 @@ data class SmeDto(
     val funding: SmeFundingDto? = null,
     val finance: SmeFinanceDto? = null,
     val documents: List<AttachmentDto> = emptyList(),
+    val xlsx: AttachmentDto? = null,
+    val sheet: SmeSheet? = null,
     val governance: SmeGovernanceDto? = null,
     val business: SmePlanDto = SmePlanDto(),
     val swot: SmeSwotDto? = null,
