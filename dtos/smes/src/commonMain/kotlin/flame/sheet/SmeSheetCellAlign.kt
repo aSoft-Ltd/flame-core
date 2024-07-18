@@ -14,9 +14,10 @@ import kotlinx.JsExport
 import kotlinx.serialization.Serializable
 
 @Serializable
-data class SmeSheetCell(
-    val content: String,
-    val bold: Boolean = false,
-    val align: SmeSheetCellAlign = SmeSheetCellAlign.left,
-    val indent: Boolean = false
-)
+enum class SmeSheetCellAlign{
+    left, right, center;
+
+    val isLeft get() = this == left
+    val isRight get() = this == right
+    val isCenter get() = this == center
+}

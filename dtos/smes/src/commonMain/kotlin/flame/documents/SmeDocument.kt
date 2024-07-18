@@ -28,4 +28,8 @@ interface SmeDocument {
         Quotations("quotations"),
         MouOrSaleOfAgreements("mou-or-sale-of-agreements")
     }
+
+    class FinancialSpreadsheet:SmeDocument {
+        override val label: String = "financial-spreadsheet"
+    }
 }
