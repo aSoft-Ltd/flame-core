@@ -16,9 +16,9 @@ import kotlinx.serialization.Serializable
 @Serializable
 data class SmeSheetCell(
     val content: String,
-    val bold: Boolean = false,
-    val align: SmeSheetCellAlign = SmeSheetCellAlign.left,
-    val indent: Boolean = false,
+    val bold: Boolean,
+    val align: SmeSheetCellAlign,
+    val indent: Boolean,
     val colspan: Int,
     val rowspan: Int
 )

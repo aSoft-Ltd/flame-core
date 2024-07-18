@@ -15,9 +15,11 @@ import kotlinx.serialization.Serializable
 
 @Serializable
 enum class SmeSheetCellAlign{
-    left, right, center;
+    left, right, center, justify;
 
     val isLeft get() = this == left
     val isRight get() = this == right
     val isCenter get() = this == center
+
+    val isJustify get() = this == justify
 }
