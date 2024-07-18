@@ -18,5 +18,7 @@ data class SmeSheetCell(
     val content: String,
     val bold: Boolean = false,
     val align: SmeSheetCellAlign = SmeSheetCellAlign.left,
-    val indent: Boolean = false
+    val indent: Boolean = false,
+    val colspan: Int,
+    val rowspan: Int
 )
