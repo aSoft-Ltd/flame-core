@@ -11,6 +11,7 @@ data class SmeGoverningPersonnelDto(
     val name: String?,
     val role: String?,
     val qualification: String?,
+    val fieldOfStudy: String?,
     val experience: Double?,
     val resume: Attachment?
 )

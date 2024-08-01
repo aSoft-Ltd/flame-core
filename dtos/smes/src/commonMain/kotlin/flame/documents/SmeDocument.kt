@@ -15,18 +15,23 @@ interface SmeDocument {
     }
 
     enum class FinancialRecord(override val label: String): SmeDocument {
-        BalanceSheet("balance-sheet"),
-        IncomeStatement("income-statement"),
-        CashFlow("cash-flow"),
+//        BalanceSheet("balance-sheet"),
+//        IncomeStatement("income-statement"),
+//        CashFlow("cash-flow"),
+        CurrentYearFinancials("current-year-financials"),
+        PriorYearFinancialStatementYear1("prior-year-financial-statement-year-1"),
+        PriorYearFinancialStatementYear2("prior-year-financial-statement-year-2"),
         AssetRegister("asset-register"),
         FinancialProjections("financial-projections"),
         SalesPipeline("sales-pipeline")
     }
 
+
     enum class Additional(override val label: String) : SmeDocument {
         LetterOfIntent("letter-of-intent"),
         Quotations("quotations"),
-        MouOrSaleOfAgreements("mou-or-sale-of-agreements")
+        MouOrSaleOfAgreements("mou-or-sale-of-agreements"),
+        Other("other")
     }
 
     class FinancialSpreadsheet:SmeDocument {
