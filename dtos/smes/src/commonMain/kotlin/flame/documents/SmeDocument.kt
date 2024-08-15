@@ -2,7 +2,7 @@ package flame.documents
 
 interface SmeDocument {
     val label: String
-
+    val name: String
     enum class List(override val label: String) : SmeDocument {
         CompanyProfile("company-profile"),
         BusinessPlan("business-plan"),
@@ -36,5 +36,6 @@ interface SmeDocument {
 
     class FinancialSpreadsheet:SmeDocument {
         override val label: String = "financial-spreadsheet"
+        override val name: String = "financial-spreadsheet"
     }
 }
