@@ -11,7 +11,7 @@ data class SmeLegalComplianceDto(
     val vatRegistration: String? = null,
     val vatNumber: String? = null,
     val taxComplianceStatus: String? = null,
-    val incomeTaxNumber: Int? = null,
+    val incomeTaxNumber: String? = null,
     val workmanCompensationOption: String? = null,
     val workmanCompensationNumber: Int? = null
 )

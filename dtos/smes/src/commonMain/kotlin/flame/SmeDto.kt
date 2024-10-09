@@ -1,3 +1,5 @@
+@file:JsExport
+@file:Suppress("NON_EXPORTABLE_TYPE")
 package flame
 
 import cabinet.AttachmentDto
@@ -9,6 +11,7 @@ import flame.governance.SmeGovernanceDto
 import flame.plan.SmePlanDto
 import flame.sheet.SmeSheet
 import flame.swot.SmeSwotDto
+import kotlinx.JsExport
 import kotlinx.serialization.Serializable
 
 @Serializable
